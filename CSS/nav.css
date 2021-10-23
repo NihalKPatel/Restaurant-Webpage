@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+ 
+.nav ul {
+ 	list-style: none;
+	background-color: #c89f2d;
+  	text-align: center;
+  	padding: 0;
+  	margin: 0;
+	background-size: auto;
+}
+.nav li {
+	font-family: Dandy;
+	font-size: 30px;
+	height: 50px;
+	width: 175px;
+	line-height: 50px;
+	display: inline-block;
+}
+ 
+.nav a{
+  text-decoration: none;
+  color: #FFFFFF;
+  display: block;
+  cursor: default
+}
+ 
+.nav a:hover {
+  background-color: #E4CB88;
+}

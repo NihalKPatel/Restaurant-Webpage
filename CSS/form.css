@@ -1,0 +1,40 @@
+body
+{
+    box-sizing: border-box;
+}
+
+input[type=text],textarea {
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	white-space: pre-line;
+	margin-bottom: 10px;
+	float: center;
+}
+
+input[type=text], select{
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	white-space: pre-line;
+	margin-bottom: 10px;
+	float: center;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+	
+input[type=submit]{
+    background-color: #c89f2d;
+	width: 32%;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+}

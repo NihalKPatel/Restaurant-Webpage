@@ -1,0 +1,144 @@
+html{
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	margin: auto;
+	background-color: #FFFFFF;
+	max-width: 1200px;
+	
+}
+
+body {
+    line-height: 1.52;
+    color: #000000;
+    overflow-x: hidden;
+
+}
+@font-face {
+	font-family: 'Dandy';
+	src: url(../Font/Dandy.ttf);
+}
+/* Header
+-----------------------------------------------------------------------------*/
+.header h1{
+	font-family: raleway;
+    font-size: 45px;
+    color: #c89f2d;
+	margin: auto;
+	text-align: center;
+}
+
+.image {
+	background: url(../images/pizza-toppings.jfif);    
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+	background-size: cover;
+    min-height: 600px;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content h1{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-shadow: 3px 3px 5px grey;
+	font-size: 36px;
+	color: #c89f2d;
+	line-height: 5px;
+	text-align: center;
+}
+
+.content p{
+    font-family: Dandy;
+	margin-bottom: 10px;
+	margin-top: 5%;
+	color: #4c4c4c;
+	font-size: 16px;
+}
+.content img{
+	border-style: double;
+	border-radius: 10px;
+	margin-bottom: 25px;
+	transform: scale(100%) translate(-100%, -100%);
+
+}
+/* COntact
+-----------------------------------------------------------------------------*/
+.contact {
+	width: auto;
+	text-align: center;	
+}
+	
+.contact h1{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-shadow: 3px 3px 5px grey;
+	font-size: 36px;
+	color: #c89f2d;
+	text-align: center;
+}	
+.contact p{
+	font-family: Dandy;
+	color: #4c4c4c;
+	font-size: 16px;
+	text-align: center;
+}
+
+/* menu
+-----------------------------------------------------------------------------*/
+
+#menu {
+	width: 100%;
+	text-align: center;	
+}
+
+#menu h1 {
+	font-family: 'Yeseva One', cursive;
+	color: #c89f2d;
+	border-bottom: 1px solid #e4d7ab;
+	font-size: 21px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+	
+#menu h2 {
+	font-family: Georgia, "serif";
+	text-shadow: 3px 3px 5px grey;
+	font-size: 36px;
+	color: #c89f2d;
+	line-height: 36px;
+	text-align: center;
+}
+	
+#menu p{
+	font-family: Dandy;
+	margin-bottom: 30px;
+	margin-top: 7px;
+	color: #4c4c4c;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+.footer {
+	clear: both;
+	position:inherit;
+    height: auto;
+    width: 100%;
+    background-color: #222;
+    text-align: center;
+	min-height: 5px;
+}
+
+.footer-top{
+	height: 15px;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: #fff;
+	border-bottom: 1px solid #e4d7ab;
+	font-size: 15px;
+	text-align: center;
+}
